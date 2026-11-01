@@ -1,0 +1,27 @@
+; Neon Breakout - Godot 4.4+
+config_version=5
+
+[application]
+config/name="霓虹突围 · NEON BREAKOUT"
+config/description="作者：memory。单人俯视角射击游戏。"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+config/icon="res://assets/icon.svg"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="NeonBreakout"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/size/window_width_override=1280
+window/size/window_height_override=800
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+environment/defaults/default_clear_color=Color(0.024, 0.035, 0.067, 1)
+
+[audio]
+driver/enable_input=false
