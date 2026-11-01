@@ -1,0 +1,11 @@
+config_version=5
+[application]
+config/name="memory / Game Portfolio"
+run/main_scene="res://main.tscn"
+[display]
+window/size/viewport_width=1120
+window/size/viewport_height=760
+window/stretch/mode="canvas_items"
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.027,0.043,0.075,1)
